@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.adensar.adensar_mobile.NovoEspecimeIdentificacaoActivity"
+    tools:showIn="@layout/activity_novo_especime_identificacao">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/especie_nome_comum"
+            android:layout_marginStart="20dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/txtEspecime"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:imeOptions="actionNext" />
+
+        <TableRow
+            android:layout_width="371dp"
+            android:layout_height="match_parent"
+            android:gravity="right">
+
+            <Button
+                android:id="@+id/btEspecieNaoIdentificada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="@string/especie_nao_identificada" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/altura_metros" />
+
+        <EditText
+            android:id="@+id/txtAltura"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/cap_centimetros" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="left|center">
+
+            <EditText
+                android:id="@+id/txtCap"
+                android:layout_width="282dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:maxLength="6" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/btnAdd"
+                android:layout_width="51dp"
+                android:layout_height="78dp"
+                android:clickable="true"
+                android:onClick="onBtnAddClicked"
+                app:srcCompat="@android:drawable/ic_menu_add" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="left|center">
+
+            <TextView
+                android:id="@+id/txtCapTotal"
+                android:layout_width="281dp"
+                android:layout_height="39dp" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/btnDesfazer"
+                android:layout_width="55dp"
+                android:layout_height="51dp"
+                android:clickable="false"
+                android:onClick="onBtnRemClicked"
+                android:visibility="invisible"
+                app:srcCompat="@android:drawable/ic_menu_revert" />
+        </TableRow>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

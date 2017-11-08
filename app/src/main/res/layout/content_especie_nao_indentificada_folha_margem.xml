@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.adensar.adensar_mobile.EspecieNaoIndentificadaFolhaMargemActivity"
+    tools:showIn="@layout/activity_especie_nao_indentificada_folha_margem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/resMarginLeft">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/folha_tipo"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton android:id="@+id/folha_margem_inteira_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/folha_margem_inteira"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton android:id="@+id/folha_margem_bilobada_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/folha_margem_bilobada"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton android:id="@+id/folha_margem_crenada_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/folha_margem_crenada"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton android:id="@+id/folha_margem_dentada_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/folha_margem_dentada"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton android:id="@+id/folha_margem_espinhosa_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/folha_margem_espinhosa"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton android:id="@+id/folha_margem_fendida_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/folha_margem_fendida"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton android:id="@+id/folha_margem_laciniada_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/folha_margem_laciniada"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton android:id="@+id/folha_margem_lobada_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/folha_margem_lobada"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton android:id="@+id/folha_margem_ondulada_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/folha_margem_ondulada"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton android:id="@+id/folha_margem_revoluta_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/folha_margem_revoluta"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton android:id="@+id/folha_margem_serreada_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/folha_margem_serreada"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton android:id="@+id/folha_margem_trilobada_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/folha_margem_trilobada"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton android:id="@+id/folha_margem_tetralobada_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/folha_margem_tetralobada"
+                android:onClick="onRadioButtonClicked"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btConfirmaFolhaMargem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/MarginTop"
+            android:text="@string/btConfirmar"/>
+
+        <Button
+            android:id="@+id/btIncluiImagemFolhaMargem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/MarginTop"
+            android:text="@string/btIncluir_imagem"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

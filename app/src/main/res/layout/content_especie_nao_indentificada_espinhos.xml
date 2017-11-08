@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.adensar.adensar_mobile.EspecieNaoIndentificadaEspinhosActivity"
+    tools:showIn="@layout/activity_especie_nao_indentificada_espinhos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/resMarginLeft">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/presenca_espinhos"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton android:id="@+id/espinhos_sim_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btRd_sim"
+                android:onClick="onRadioButtonClicked"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/localizacao_espinhos"/>
+
+        <EditText
+            android:id="@+id/txtEspinhosDetalhes_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textImeMultiLine"
+            android:lines="5"
+            android:minLines="6"
+            android:maxLines="10"
+            android:gravity="top|left"
+            android:scrollbars="vertical"
+            />
+
+
+        <TextView
+            android:id="@+id/espinhos_observacao_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textImeMultiLine"
+            android:lines="3"
+            android:minLines="1"
+            android:maxLines="5"/>
+
+        <Button
+            android:id="@+id/btIncluiImagemEspinho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/MarginTop"
+            android:text="@string/btIncluir_imagem"/>
+
+        <!--ACÚLEOS-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/presenca_aculeos"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton android:id="@+id/aculeos_sim_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btRd_sim"
+                android:onClick="onRadioButtonClicked2"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aculeos_localizacao"/>
+
+        <EditText
+            android:id="@+id/txtAculeoDetalhes_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textImeMultiLine"
+            android:lines="5"
+            android:minLines="6"
+            android:maxLines="10"
+            android:gravity="top|left"
+            android:scrollbars="vertical"
+            />
+
+
+        <TextView
+            android:id="@+id/aculeos_observacao_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textImeMultiLine"
+            android:lines="3"
+            android:minLines="1"
+            android:maxLines="5"/>
+
+        <Button
+            android:id="@+id/btIncluiImagemAculeo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/MarginTop"
+            android:text="@string/btIncluir_imagem"/>
+
+
+        <!--Botões de Fechamento-->
+        <Button
+            android:id="@+id/btConfirmaEspinho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/MarginTop"
+            android:text="@string/btConfirmar"/>
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

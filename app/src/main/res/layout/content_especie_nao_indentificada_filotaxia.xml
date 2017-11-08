@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.adensar.adensar_mobile.EspecieNaoIndentificadaFilotaxiaActivity"
+    tools:showIn="@layout/activity_especie_nao_indentificada_filotaxia">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/resMarginLeft">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filotaxia"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/filotaxia_alternada_distica_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filotaxia_altenada_distica"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton android:id="@+id/filotaxia_alternada_espiralada_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filotaxia_alternada_espiralada"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton android:id="@+id/filotaxia_oposta_distica_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filotaxia_oposta_distica"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton android:id="@+id/filotaxia_oposta_cruzada_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filotaxia_oposta_cruzada"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton android:id="@+id/filotaxia_verticilada_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filotaxia_verticilada"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton android:id="@+id/filotaxia_congesta_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filotaxia_congesta"
+                android:onClick="onRadioButtonClicked"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btConfirmaFilotaxia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/MarginTop"
+            android:text="@string/btConfirmar"/>
+
+        <Button
+            android:id="@+id/btIncluiImagemFilotaxia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/MarginTop"
+            android:text="@string/btIncluir_imagem"/>
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

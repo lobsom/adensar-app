@@ -1,0 +1,115 @@
+<resources>
+    <!--Botões Disponíveis-->
+    <string name="btRd_sim">Sim</string>
+    <string name="btRd_nao">Não</string>
+    <string name="btCancelar">Cancelar</string>
+    <string name="btIncluir_imagem">Incluir Imagem</string>
+    <string name="btConfirmar">Confirmar</string>
+    <string name="btConfirmar_registro">Confirmar Registro</string>
+    <!--Fim de Botões Disponíveis-->
+
+
+    <string name="app_name">Adensar-mobile</string>
+    <string name="title_activity_levantamento_arboreo_novo">Levantamento Arbóreo</string>
+    <string name="title_activity_levantamento_arboreo_retomar">Retomar Levantamento Arboreo</string>
+    <string name="especimes_localizados">Espécimes Localizados</string>
+    <string name="apps_localizados">Apps Localizados</string>
+    <string name="trecho_designado">Trecho Designado</string>
+    <string name="equipe">Equipe</string>
+    <string name="retomar_levantamento_arboreo">Retomar Levantamento Arbóreo</string>
+    <string name="consultar_levantamentos">Consultar Levantamentos</string>
+    <string name="finalizar_levantamento">Finalizar Levantamento</string>
+    <string name="title_activity_escolher_tipo_registro">Escolher Tipo de Registro</string>
+    <string name="title_activity_novo_especime_dados_base">Novo Espécime Dados Base</string>
+    <string name="title_activity_novo_especime_identificacao">Novo Especime: Identificacao</string>
+    <string name="especie_nao_identificada">Espécie Não Identificada (ENId)</string>
+    <string name="especie_nome_comum">Espécie/Nome Comum</string>
+    <string name="altura_metros">Altura (m)</string>
+    <string name="cap_centimetros">CAP (cm)</string>
+    <string name="arvore_consta_em_app">Árvore consta em APP</string>
+    <string name="app">APP</string>
+    <string name="invalidar_placa">Invalidar Placa</string>
+    <string name="gps">GPS</string>
+    <string name="placa">Placa</string>
+    <string name="title_activity_novo_especime_avaliacao">Novo Espécime Avaliacão</string>
+    <string name="observacoes">Observações</string>
+    <string name="fitossanidade">Fitossanidade</string>
+
+    <!-- Spinner utilizado em Espécime Avaliação -->
+    <string-array name="spinner_fitossanidade">
+        <item>Sadia</item>
+        <item>Morta</item>
+        <item>Queimada</item>
+        <item>Cupim</item>
+        <item>Formigas</item>
+    </string-array>
+
+
+    <string name="title_activity_novo_especime_confirmacao">Novo Espécime</string>
+    <string name="title_activity_especie_nao_identificada_caracterizacao">Espécie Não Identificada -
+        Caracterização
+    </string>
+    <string name="title_activity_especie_nao_indentificada_filotaxia">Especie Não Indentificada:
+        Filotaxia
+    </string>
+    <string name="title_activity_especie_nao_indentificada_espinhos">Especie Não Indentificada:
+        Espinhos
+    </string>
+    <string name="title_activity_especie_nao_indentificada_folha">Especie Não Indentificada: Folha
+    </string>
+    <string name="title_activity_especie_nao_indentificada_folha_margem">Especie Não Indentificada:
+        Margem da Folha
+    </string>
+    <string name="filotaxia_congesta">Congesta</string>
+    <string name="filotaxia_verticilada">Verticilada</string>
+    <string name="filotaxia_oposta_cruzada">Oposta Cruzada</string>
+    <string name="filotaxia_oposta_distica">Oposta Dística</string>
+    <string name="filotaxia_alternada_espiralada">Alternada Espiralada</string>
+    <string name="filotaxia_altenada_distica">Altenada Dística</string>
+    <string name="folha_tipo">Tipo de Folha</string>
+    <string name="folha_tipo_bifoliolada">Bifoliolada</string>
+    <string name="folha_tipo_trifoliolada">Trifoliolada</string>
+    <string name="folha_tipo_digitada">Digitada</string>
+    <string name="folha_tipo_palmada">Palmada</string>
+    <string name="folha_tipo_paripinada">Paripinada</string>
+    <string name="folha_tipo_imparipinada">Imparipinada</string>
+    <string name="folha_tipo_bipinada">Bipinada</string>
+    <string name="folha_margem_inteira">Inteira</string>
+    <string name="folha_margem_bilobada">Bilobada</string>
+    <string name="folha_margem_crenada">Crenada</string>
+    <string name="folha_margem_dentada">Dentada</string>
+    <string name="folha_margem_espinhosa">Espinhosa</string>
+    <string name="folha_margem_fendida">Fendida</string>
+    <string name="folha_margem_laciniada">Laciniada</string>
+    <string name="folha_margem_lobada">Lobada</string>
+    <string name="folha_margem_ondulada">Ondulada</string>
+    <string name="folha_margem_revoluta">Revoluta</string>
+    <string name="folha_margem_serreada">Serreada</string>
+    <string name="folha_margem_trilobada">Trilobada</string>
+    <string name="folha_margem_tetralobada">Tetralobada</string>
+    <string name="title_activity_registrar_app">Registrar APP</string>
+    <string name="localizacao_espinhos">Localização dos Espinhos</string>
+    <string name="presenca_espinhos">Presença de Espinhos e/ou Acúleos</string>
+    <string name="especie_invasora">Espécie Invasora</string>
+    <string name="fator_degradacao">Fator de Degradação</string>
+    <string name="tipo">Tipo</string>
+    <string name="entorno">Entorno</string>
+    <string name="vegetacao">Vegetação</string>
+    <string name="situacao_area">Situação da Área</string>
+    <string name="title_activity_registrar_app_confirmar_registro">Registrar APP: Confirmar
+        Registro
+    </string>
+    <string name="caracterizacao_filotaxia">Filotaxia</string>
+    <string name="caracterizacao_espinhos">Espinhos</string>
+    <string name="caracterizacao_folha">Folha</string>
+    <string name="caracterizacao_folha_margem">Margem da Folha</string>
+    <string name="inicarApp">Iniciar Aplicativo Adensar</string>
+    <string name="app_adensar">Adensar - Tecnologia e Meio Ambiente</string>
+    <string name="presenca_aculeos">Presença de Acúleos</string>
+    <string name="aculeos_localizacao">Localização dos Acúleos</string>
+    <string name="pinada">Pinada</string>
+    <string name="iniciar_levantamento_arboreo">Iniciar Levantamento Arbóreo</string>
+    <string name="especime">Espécime</string>
+    <string name="caracteristicas">****Características****</string>
+    <string name="fuste">Fuste</string>
+</resources>

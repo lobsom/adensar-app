@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.adensar.adensar_mobile">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LevantamentoArboreoNovoActivity"
+            android:label="@string/title_activity_levantamento_arboreo_novo"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".LevantamentoArboreoRetomarActivity"
+            android:label="@string/title_activity_levantamento_arboreo_retomar"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".EscolherTipoRegistroActivity"
+            android:label="@string/title_activity_escolher_tipo_registro"
+            android:parentActivityName=".LevantamentoArboreoNovoActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LevantamentoArboreoNovoActivity" />
+        </activity>
+
+        <activity
+            android:name=".NovoEspecimeDadosBaseActivity"
+            android:label="@string/title_activity_novo_especime_dados_base"
+            android:parentActivityName=".EscolherTipoRegistroActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EscolherTipoRegistroActivity" />
+        </activity>
+
+        <activity
+            android:name=".NovoEspecimeIdentificacaoActivity"
+            android:label="@string/title_activity_novo_especime_identificacao"
+            android:parentActivityName=".NovoEspecimeDadosBaseActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NovoEspecimeDadosBaseActivity" />
+        </activity>
+
+        <activity
+            android:name=".NovoEspecimeAvaliacaoActivity"
+            android:label="@string/title_activity_novo_especime_avaliacao"
+            android:parentActivityName=".NovoEspecimeIdentificacaoActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NovoEspecimeIdentificacaoActivity" />
+        </activity>
+
+        <activity
+            android:name=".NovoEspecimeConfirmacaoActivity"
+            android:label="@string/title_activity_novo_especime_confirmacao"
+            android:parentActivityName=".NovoEspecimeAvaliacaoActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NovoEspecimeAvaliacaoActivity" />
+        </activity>
+
+        <activity
+            android:name=".EspecieNaoIdentificadaCaracterizacaoActivity"
+            android:label="@string/title_activity_especie_nao_identificada_caracterizacao"
+            android:parentActivityName=".NovoEspecimeIdentificacaoActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NovoEspecimeIdentificacaoActivity" />
+        </activity>
+
+        <activity
+            android:name=".EspecieNaoIndentificadaFilotaxiaActivity"
+            android:label="@string/title_activity_especie_nao_indentificada_filotaxia"
+            android:parentActivityName=".EspecieNaoIdentificadaCaracterizacaoActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EspecieNaoIdentificadaCaracterizacaoActivity" />
+        </activity>
+
+        <activity
+            android:name=".EspecieNaoIndentificadaEspinhosActivity"
+            android:label="@string/title_activity_especie_nao_indentificada_espinhos"
+            android:parentActivityName=".EspecieNaoIdentificadaCaracterizacaoActivity"
+            android:theme="@style/AppTheme.NoActionBar"  >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EspecieNaoIdentificadaCaracterizacaoActivity" />
+        </activity>
+
+        <activity
+            android:name=".EspecieNaoIndentificadaFolhaActivity"
+            android:label="@string/title_activity_especie_nao_indentificada_folha"
+            android:parentActivityName=".EspecieNaoIdentificadaCaracterizacaoActivity"
+            android:theme="@style/AppTheme.NoActionBar"  >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EspecieNaoIdentificadaCaracterizacaoActivity" />
+        </activity>
+
+        <activity
+            android:name=".EspecieNaoIndentificadaFolhaMargemActivity"
+            android:label="@string/title_activity_especie_nao_indentificada_folha_margem"
+            android:parentActivityName=".EspecieNaoIdentificadaCaracterizacaoActivity"
+            android:theme="@style/AppTheme.NoActionBar"  >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EspecieNaoIdentificadaCaracterizacaoActivity" />
+        </activity>
+
+        <activity
+            android:name=".RegistrarAppActivity"
+            android:label="@string/title_activity_registrar_app"
+            android:parentActivityName=".EscolherTipoRegistroActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EscolherTipoRegistroActivity" />
+        </activity>
+
+        <activity
+            android:name=".RegistrarAppConfirmarRegistroActivity"
+            android:label="@string/title_activity_registrar_app_confirmar_registro"
+            android:parentActivityName=".RegistrarAppActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RegistrarAppActivity" />
+        </activity>
+    </application>
+
+</manifest>

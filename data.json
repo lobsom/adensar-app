@@ -1,0 +1,227 @@
+
+	{
+		"codEspecie": "1",
+		"nomeComum": "abacateiro",
+		"nomeCientifico": "Persea americana L.",
+		"filotaxia": "alternada_espiralada",
+		"espinhos": "nao",
+		"margemFolha": "inteira",
+		"Coluna1": "ok"
+	},
+	{
+		"codEspecie": "2",
+		"nomeComum": "acácia",
+		"nomeCientifico": "Acacia mangium",
+		"filotaxia": "alterna",
+		"espinhos": "nao",
+		"margemFolha": "inteira",
+		"Coluna1": ""
+	},
+	{
+		"codEspecie": "3",
+		"nomeComum": "acerola",
+		"nomeCientifico": "Malpighia glabra L.",
+		"filotaxia": "oposta_distica",
+		"espinhos": "sim",
+		"margemFolha": "crenada",
+		"Coluna1": ""
+	},
+	{
+		"codEspecie": "4",
+		"nomeComum": "amora-preta",
+		"nomeCientifico": "Morus nigra L.",
+		"filotaxia": "oposta_cruzada",
+		"espinhos": "nao",
+		"margemFolha": "dentada",
+		"Coluna1": ""
+	},
+	{
+		"codEspecie": "5",
+		"nomeComum": "angico-branco",
+		"nomeCientifico": "Anadenanthera peregrina (L.) Speg",
+		"filotaxia": "verticilada",
+		"espinhos": "sim",
+		"margemFolha": "espinhosa",
+		"Coluna1": ""
+	},
+	{
+		"codEspecie": "6",
+		"nomeComum": "angico-do-cerrado",
+		"nomeCientifico": "Anadenanthera falcata (Benth.) Speg",
+		"filotaxia": "congesta",
+		"espinhos": "nao",
+		"margemFolha": "fendida",
+		"Coluna1": ""
+	},
+	{
+		"codEspecie": "7",
+		"nomeComum": "cajá-manga",
+		"nomeCientifico": "Spondias dulcis",
+		"filotaxia": "alternada_distica",
+		"espinhos": "sim",
+		"margemFolha": "laciniada",
+		"Coluna1": ""
+	},
+	{
+		"codEspecie": "8",
+		"nomeComum": "chichá-do-cerrado",
+		"nomeCientifico": "Sterculia striata A.St.-Hil. & Naudin",
+		"filotaxia": "alternada_espiralada",
+		"espinhos": "nao",
+		"margemFolha": "lobada",
+		"Coluna1": ""
+	},
+	{
+		"codEspecie": "9",
+		"nomeComum": "farinha-seca",
+		"nomeCientifico": "Albizia polycephala (Benth.) Killip ex Record",
+		"filotaxia": "oposta_distica",
+		"espinhos": "sim",
+		"margemFolha": "ondulada",
+		"Coluna1": ""
+	},
+	{
+		"codEspecie": "10",
+		"nomeComum": "figueira",
+		"nomeCientifico": "Ficus guaranitica L.",
+		"filotaxia": "oposta_cruzada",
+		"espinhos": "nao",
+		"margemFolha": "revoluta",
+		"Coluna1": ""
+	},
+	{
+		"codEspecie": "11",
+		"nomeComum": "figueira-benjamina",
+		"nomeCientifico": "Ficus benjamina L.",
+		"filotaxia": "verticilada",
+		"espinhos": "sim",
+		"margemFolha": "serreada",
+		"Coluna1": ""
+	},
+	{
+		"codEspecie": "12",
+		"nomeComum": "ingá-de-folha-peluda",
+		"nomeCientifico": "Inga striata Benth.",
+		"filotaxia": "congesta",
+		"espinhos": "nao",
+		"margemFolha": "trilobada",
+		"Coluna1": ""
+	},
+	{
+		"codEspecie": "13",
+		"nomeComum": "ipê-amarelo",
+		"nomeCientifico": "Handroanthus ochracea (Cham.) Standl.",
+		"filotaxia": "alternada_distica",
+		"espinhos": "sim",
+		"margemFolha": "tetralobada",
+		"Coluna1": ""
+	},
+	{
+		"codEspecie": "14",
+		"nomeComum": "ipê-de-jardim",
+		"nomeCientifico": "Tecoma stans (L.) Juss. ex Kunth",
+		"filotaxia": "alternada_espiralada",
+		"espinhos": "nao",
+		"margemFolha": "inteira",
+		"Coluna1": ""
+	},
+	{
+		"codEspecie": "15",
+		"nomeComum": "ipê-roxo",
+		"nomeCientifico": "Handroanthus impetiginosus (Mart. Ex DC.)",
+		"filotaxia": "oposta_distica",
+		"espinhos": "sim",
+		"margemFolha": "bilobada",
+		"Coluna1": ""
+	},
+	{
+		"codEspecie": "16",
+		"nomeComum": "jambo",
+		"nomeCientifico": "Syzygium jambos (L.) Alston",
+		"filotaxia": "oposta_cruzada",
+		"espinhos": "nao",
+		"margemFolha": "crenada"
+	},
+	{
+		"codEspecie": "17",
+		"nomeComum": "jenipapo",
+		"nomeCientifico": "Genipa americana L.",
+		"filotaxia": "verticilada",
+		"espinhos": "sim",
+		"margemFolha": "dentada"
+	},
+	{
+		"codEspecie": "18",
+		"nomeComum": "mangueira",
+		"nomeCientifico": "Mangifera indica L.",
+		"filotaxia": "congesta",
+		"espinhos": "nao",
+		"margemFolha": "espinhosa"
+	},
+	{
+		"codEspecie": "19",
+		"nomeComum": "morta",
+		"nomeCientifico": "morta",
+		"filotaxia": "alternada_distica",
+		"espinhos": "sim",
+		"margemFolha": "fendida"
+	},
+	{
+		"codEspecie": "20",
+		"nomeComum": "mulungu",
+		"nomeCientifico": "Erythrina speciosa L.",
+		"filotaxia": "alternada_espiralada",
+		"espinhos": "nao",
+		"margemFolha": "laciniada"
+	},
+	{
+		"codEspecie": "21",
+		"nomeComum": "oiti",
+		"nomeCientifico": "Licania tomentosa (Benth.) Fritsch.",
+		"filotaxia": "oposta_distica",
+		"espinhos": "sim",
+		"margemFolha": "lobada"
+	},
+	{
+		"codEspecie": "22",
+		"nomeComum": "paineira",
+		"nomeCientifico": "Ceiba speciosa (A.St.-Hil.) Ravenna",
+		"filotaxia": "oposta_cruzada",
+		"espinhos": "nao",
+		"margemFolha": "ondulada"
+	},
+	{
+		"codEspecie": "23",
+		"nomeComum": "pau-brasil",
+		"nomeCientifico": "Paubrasiliana echinata Lam.",
+		"filotaxia": "verticilada",
+		"espinhos": "sim",
+		"margemFolha": "revoluta"
+	},
+	{
+		"codEspecie": "24",
+		"nomeComum": "pau-cigarra",
+		"nomeCientifico": "Senna multijuga (Rich.) H. S. Irwin & Barneby",
+		"filotaxia": "congesta",
+		"espinhos": "nao",
+		"margemFolha": "serreada"
+	},
+	{
+		"codEspecie": "25",
+		"nomeComum": "pequi",
+		"nomeCientifico": "Caryocar brasiliense Camb.",
+		"filotaxia": "alternada_distica",
+		"espinhos": "sim",
+		"margemFolha": "trilobada"
+	},
+	{
+		"codEspecie": "26",
+		"nomeComum": "sibipiruna",
+		"nomeCientifico": "Caesalpinia pluviosa (DC.) L.",
+		"filotaxia": "alternada_espiralada",
+		"espinhos": "nao",
+		"margemFolha": "tetralobada"
+	},
+	{
+		"codEspecie": ""
+	}

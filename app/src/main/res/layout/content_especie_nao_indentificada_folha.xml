@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.adensar.adensar_mobile.EspecieNaoIndentificadaFolhaActivity"
+    tools:showIn="@layout/activity_especie_nao_indentificada_folha">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/resMarginLeft">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/folha_tipo"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton android:id="@+id/folha_tipo_bifoliolada_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/folha_tipo_bifoliolada"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton android:id="@+id/folha_tipo_trifoliolada_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/folha_tipo_trifoliolada"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton android:id="@+id/folha_tipo_digitada_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/folha_tipo_digitada"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton android:id="@+id/folha_tipo_palmada_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/folha_tipo_palmada"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton android:id="@+id/folha_tipo_pinada_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pinada"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton android:id="@+id/folha_tipo_paripinada_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/folha_tipo_paripinada"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton android:id="@+id/folha_tipo_imparipinada_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/folha_tipo_imparipinada"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton android:id="@+id/folha_tipo_bipinada_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/folha_tipo_bipinada"
+                android:onClick="onRadioButtonClicked"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btConfirmaFolha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/MarginTop"
+            android:text="@string/btConfirmar"/>
+
+        <Button
+            android:id="@+id/btIncluiImagemFolha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/MarginTop"
+            android:text="@string/btIncluir_imagem"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
