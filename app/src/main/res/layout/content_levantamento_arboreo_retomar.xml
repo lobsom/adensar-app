@@ -44,6 +44,10 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:text="@string/finalizar_levantamento" />
+        <TextView
+            android:id="@+id/txtTudo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
     </LinearLayout>
 

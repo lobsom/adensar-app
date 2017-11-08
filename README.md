@@ -1,1 +1,0 @@
-# adensar-app

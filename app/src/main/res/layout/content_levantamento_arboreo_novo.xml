@@ -33,6 +33,12 @@
             android:layout_height="wrap_content"
             android:text="@string/iniciar_levantamento_arboreo"/>
 
+        <TextView
+            android:id="@+id/txtTudo"
+            android:layout_width="340dp"
+            android:layout_height="419dp"
+            android:text="teste" />
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

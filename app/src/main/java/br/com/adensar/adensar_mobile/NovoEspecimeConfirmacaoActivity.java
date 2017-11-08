@@ -1,5 +1,6 @@
 package br.com.adensar.adensar_mobile;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -79,9 +80,13 @@ public class NovoEspecimeConfirmacaoActivity extends AppCompatActivity {
         //so para log do json do objeto
         Gson gson = new Gson();
         String userJSONString = gson.toJson(singleton.getArvores());
-        SharedPreferences.Editor editor = getSharedPreferences("REGISTRO", MODE_PRIVATE).edit();
-        editor.putString("YOURKEY",userJSONString  );
-        editor.commit();
+
+        SharedPreferences prefs = getSharedPreferences("REGISTRO", Context.MODE_PRIVATE);
+        SharedPreferences.Editor ed = prefs.edit();
+        ed.putString("arquivo",userJSONString);
+        ed.apply();
+        Toast.makeText(getBaseContext(),"Gravado com sucesso!", Toast.LENGTH_SHORT).show();
+
 
         Log.d("Gson", "tree JSON String: "+userJSONString);
 
